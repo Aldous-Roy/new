@@ -16,7 +16,7 @@ app.post('/login',(req,res)=>{
 });
 
 app.get('/', (req, res) => {
-  res.send('This is a start point')
+  res.send('This is stack')
 })
 
 app.listen(port, () => {
